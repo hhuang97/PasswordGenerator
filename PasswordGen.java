@@ -32,7 +32,7 @@ public class PasswordGen {
 		return sb.toString();
 	}
 	
-	// returns integer within min and max range inclusive
+	// returns integer within min and max range, inclusive
 	private static int randomRange (int min, int max){
 	   int range = (max - min) + 1;     
 	   return (int)(Math.random() * range) + min;
